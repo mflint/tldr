@@ -1,11 +1,12 @@
-# look
+look
+====
 
 > Look for lines in sorted file.
 
-- Look for lines which begins with the given prefix:
+Look for lines which begins with the given prefix:
 
-`look {{prefix}} {{file}}`
+    look {{prefix}} {{file}}
 
-- Look for lines ignoring case:
+Look for lines ignoring case:
 
-`look -f {{prefix}} {{file}}`
+    look -f {{prefix}} {{file}}

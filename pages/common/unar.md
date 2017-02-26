@@ -1,23 +1,24 @@
-# unar
+unar
+====
 
 > Extract contents from archive files.
 
-- Extract an archive to the current directory:
+Extract an archive to the current directory:
 
-`unar {{archive}}`
+    unar {{archive}}
 
-- Extract an archive to the specified directory:
+Extract an archive to the specified directory:
 
-`unar -o {{path/to/directory}} {{archive}}`
+    unar -o {{path/to/directory}} {{archive}}
 
-- Force overwrite if files to be unpacked already exist:
+Force overwrite if files to be unpacked already exist:
 
-`unar -f {{archive}}`
+    unar -f {{archive}}
 
-- Force rename if files to be unpacked already exist:
+Force rename if files to be unpacked already exist:
 
-`unar -r {{archive}}`
+    unar -r {{archive}}
 
-- Force skip if files to be unpacked already exist:
+Force skip if files to be unpacked already exist:
 
-`unar -s {{archive}}`
+    unar -s {{archive}}

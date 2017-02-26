@@ -1,15 +1,16 @@
-# st-info
+st-info
+=======
 
 > Provides information about connected STLink and STM32 devices.
 
-- Display amount of program memory available:
+Display amount of program memory available:
 
-`st-info --flash`
+    st-info --flash
 
-- Display amount of sram memory available:
+Display amount of sram memory available:
 
-`st-info --sram`
+    st-info --sram
 
-- Display summarized information of the device:
+Display summarized information of the device:
 
-`st-info --probe`
+    st-info --probe

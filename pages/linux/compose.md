@@ -1,12 +1,13 @@
-# compose
+compose
+=======
 
 > An alias to a `run-mailcap`'s action compose.
 > Originally `run-mailcap` is used to  mime-type/file.
 
-- Compose action can be used to compose any existing file or new  on default mailcap edit tool:
+Compose action can be used to compose any existing file or new  on default mailcap edit tool:
 
-`compose {{filename}}`
+    compose {{filename}}
 
-- With `run-mailcap`:
+With `run-mailcap`:
 
-`run-mailcap --action=compose {{filename}}`
+    run-mailcap --action=compose {{filename}}

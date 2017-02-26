@@ -1,19 +1,20 @@
-# gdb
+gdb
+===
 
 > The GNU Debugger.
 
-- Debug an executable:
+Debug an executable:
 
-`gdb {{executable}}`
+    gdb {{executable}}
 
-- Attach a process to gdb:
+Attach a process to gdb:
 
-`gdb -p {{procID}}`
+    gdb -p {{procID}}
 
-- Execute given GDB commands upon start:
+Execute given GDB commands upon start:
 
-`gdb -ex "{{commands}}" {{executable}}`
+    gdb -ex "{{commands}}" {{executable}}
 
-- Start gdb and pass arguments:
+Start gdb and pass arguments:
 
-`gdb --args {{executable}} {{argument1}} {{argument2}}`
+    gdb --args {{executable}} {{argument1}} {{argument2}}

@@ -1,28 +1,29 @@
-# rtv
+rtv
+===
 
 > Reddit Terminal Viewer.
 > Use arrow keys to navigate. Right and Left to view and return from a submission, respectively.
 
-- Open the front page:
+Open the front page:
 
-`/front`
+    /front
 
-- Open a subreddit:
+Open a subreddit:
 
-`/r/{{subreddit_name}}`
+    /r/{{subreddit_name}}
 
-- Expand/collapse comments:
+Expand/collapse comments:
 
-`[space]`
+    [space]
 
-- Open link:
+Open link:
 
-`o`
+    o
 
-- Login:
+Login:
 
-`u`
+    u
 
-- Open the help screen:
+Open the help screen:
 
-`?`
+    ?

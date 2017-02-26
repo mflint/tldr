@@ -1,11 +1,12 @@
-# halt
+halt
+====
 
 > Power off or reboot the machine.
 
-- Power the machine off:
+Power the machine off:
 
-`halt`
+    halt
 
-- Reboot the machine:
+Reboot the machine:
 
-`halt --reboot`
+    halt --reboot

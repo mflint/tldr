@@ -1,11 +1,12 @@
-# fg
+fg
+==
 
 > Run jobs in foreground.
 
-- Bring most recently suspended background job to foreground:
+Bring most recently suspended background job to foreground:
 
-`fg`
+    fg
 
-- Bring a specific job to foreground:
+Bring a specific job to foreground:
 
-`fg {{job_id}}`
+    fg {{job_id}}

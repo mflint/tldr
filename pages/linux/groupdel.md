@@ -1,7 +1,8 @@
-# groupdel
+groupdel
+========
 
 > Delete existing user groups from the system.
 
-- Delete an existing group:
+Delete an existing group:
 
-`groupdel {{group_name}}`
+    groupdel {{group_name}}

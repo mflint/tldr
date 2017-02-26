@@ -1,19 +1,20 @@
-# hn
+hn
+==
 
 > Command-line interface for Hacker News.
 
-- View stories on Hacker News:
+View stories on Hacker News:
 
-`hn`
+    hn
 
-- View _number_ of stories on Hacker News:
+View _number_ of stories on Hacker News:
 
-`hn --limit {{number}}`
+    hn --limit {{number}}
 
-- View stories on Hacker News, and keep the list open after selecting a link:
+View stories on Hacker News, and keep the list open after selecting a link:
 
-`hn --keep-open`
+    hn --keep-open
 
-- View stories on Hacker News sorted by submission date:
+View stories on Hacker News sorted by submission date:
 
-`hn --latest`
+    hn --latest

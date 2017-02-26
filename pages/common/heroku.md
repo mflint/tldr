@@ -1,27 +1,28 @@
-# heroku
+heroku
+======
 
 > Create and manage Heroku apps from the command line.
 
-- Login to your heroku account:
+Login to your heroku account:
 
-`heroku login`
+    heroku login
 
-- Create a heroku app:
+Create a heroku app:
 
-`heroku create`
+    heroku create
 
-- Show logs for an app:
+Show logs for an app:
 
-`heroku logs --app {{app_name}}`
+    heroku logs --app {{app_name}}
 
-- Run a one-off process inside a dyno (Heroku virtual machine):
+Run a one-off process inside a dyno (Heroku virtual machine):
 
-`heroku run {{process_name}} --app {{app_name}}`
+    heroku run {{process_name}} --app {{app_name}}
 
-- List dynos (Heroku virtual machines) for an app:
+List dynos (Heroku virtual machines) for an app:
 
-`heroku ps --app {{app_name}}`
+    heroku ps --app {{app_name}}
 
-- Permanently destroy an app:
+Permanently destroy an app:
 
-`heroku destroy --app {{app_name}}`
+    heroku destroy --app {{app_name}}

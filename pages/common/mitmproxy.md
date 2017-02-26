@@ -1,11 +1,12 @@
-# mitmproxy
+mitmproxy
+=========
 
 > An interactive man-in-the-middle HTTP proxy.
 
-- Start mitmproxy with default settings:
+Start mitmproxy with default settings:
 
-`mitmproxy`
+    mitmproxy
 
-- Start mitmproxy bound to custom address and port:
+Start mitmproxy bound to custom address and port:
 
-`mitmproxy -b {{ip_address}} -p {{port}}`
+    mitmproxy -b {{ip_address}} -p {{port}}

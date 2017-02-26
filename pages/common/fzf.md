@@ -1,27 +1,28 @@
-# fzf
+fzf
+===
 
 > Command line fuzzy finder.
 
-- Start finder on all files from arbitrary locations:
+Start finder on all files from arbitrary locations:
 
-`find {{path/to/search}} -type f | fzf`
+    find {{path/to/search}} -type f | fzf
 
-- Start finder on running processes:
+Start finder on running processes:
 
-`ps axu | fzf`
+    ps axu | fzf
 
-- Select mutliple files with `Shift-TAB` and write to a file:
+Select mutliple files with `Shift-TAB` and write to a file:
 
-`find {{path/to/search_files}} -type f | fzf -m > {{filename}}`
+    find {{path/to/search_files}} -type f | fzf -m > {{filename}}
 
-- Start finder with a given query:
+Start finder with a given query:
 
-`fzf -q "{{query}}"`
+    fzf -q "{{query}}"
 
-- Start finder on entries that start with core and end with either go, rb, or py:
+Start finder on entries that start with core and end with either go, rb, or py:
 
-`fzf -q "^core go$ | rb$ | py$"`
+    fzf -q "^core go$ | rb$ | py$"
 
-- Start finder on entries that not match pyc and match exactly travis:
+Start finder on entries that not match pyc and match exactly travis:
 
-`fzf -q "!pyc 'travis"`
+    fzf -q "!pyc 'travis"

@@ -1,15 +1,16 @@
-# pwgen
+pwgen
+=====
 
 > Generate pronounceable passwords.
 
-- Generate random password with s[y]mbols:
+Generate random password with s[y]mbols:
 
-`pwgen -y {{length}}`
+    pwgen -y {{length}}
 
-- Generate secure, hard-to-memorize passwords:
+Generate secure, hard-to-memorize passwords:
 
-`pwgen -s {{length}}`
+    pwgen -s {{length}}
 
-- Generate password with at least one capital letter in them:
+Generate password with at least one capital letter in them:
 
-`pwgen -c {{length}}`
+    pwgen -c {{length}}

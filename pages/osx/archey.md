@@ -1,19 +1,20 @@
-# archey
+archey
+======
 
 > Simple tool for stylishly displaying system information.
 
-- Show system information:
+Show system information:
 
-`archey`
+    archey
 
-- Show system information without colored output:
+Show system information without colored output:
 
-`archey --nocolor`
+    archey --nocolor
 
-- Show system information, using MacPorts instead of Homebrew:
+Show system information, using MacPorts instead of Homebrew:
 
-`archey --macports`
+    archey --macports
 
-- Show system information without IP address check:
+Show system information without IP address check:
 
-`archey --offline`
+    archey --offline

@@ -1,7 +1,8 @@
-# mkfifo
+mkfifo
+======
 
 > Makes FIFOs (named pipes).
 
-- Create a named pipe at a given path:
+Create a named pipe at a given path:
 
-`mkfifo {{path/to/pipe}}`
+    mkfifo {{path/to/pipe}}

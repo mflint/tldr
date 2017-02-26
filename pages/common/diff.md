@@ -1,23 +1,24 @@
-# diff
+diff
+====
 
 > Compare files and directories.
 
-- Compare files:
+Compare files:
 
-`diff {{file1}} {{file2}}`
+    diff {{file1}} {{file2}}
 
-- Compare files, ignoring white spaces:
+Compare files, ignoring white spaces:
 
-`diff -w {{file1}} {{file2}}`
+    diff -w {{file1}} {{file2}}
 
-- Compare files, showing differences side by side:
+Compare files, showing differences side by side:
 
-`diff -y {{file1}} {{file2}}`
+    diff -y {{file1}} {{file2}}
 
-- Compare directories recursively:
+Compare directories recursively:
 
-`diff -r {{directory1}} {{directory2}}`
+    diff -r {{directory1}} {{directory2}}
 
-- Compare directories, only showing the names of files that differ:
+Compare directories, only showing the names of files that differ:
 
-`diff -rq {{directory1}} {{directory2}}`
+    diff -rq {{directory1}} {{directory2}}

@@ -1,31 +1,32 @@
-# less
+less
+====
 
 > Open a file for interactive reading, allowing scrolling and search.
 
-- Open a file:
+Open a file:
 
-`less {{source_file}}`
+    less {{source_file}}
 
-- Page down / up:
+Page down / up:
 
-`<Space> (down), b (up)`
+    <Space> (down), b (up)
 
-- Go to end / start of file:
+Go to end / start of file:
 
-`G (end), g (start)`
+    G (end), g (start)
 
-- Forward search for a string (press `n`/`N` to go to next/previous match):
+Forward search for a string (press `n`/`N` to go to next/previous match):
 
-`/{{something}}`
+    /{{something}}
 
-- Backward search for a string (press `n`/`N` to go to next/previous match):
+Backward search for a string (press `n`/`N` to go to next/previous match):
 
-`?{{something}}`
+    ?{{something}}
 
-- Open the current file in an editor:
+Open the current file in an editor:
 
-`v`
+    v
 
-- Exit:
+Exit:
 
-`q`
+    q

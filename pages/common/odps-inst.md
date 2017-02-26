@@ -1,23 +1,24 @@
-# odps inst
+odps inst
+=========
 
 > Manage instances in ODPS (Open Data Processing Service).
 
-- Show instances created by current user:
+Show instances created by current user:
 
-`show instances;`
+    show instances;
 
-- Describe the details of an instance:
+Describe the details of an instance:
 
-`desc instance {{instance_id}};`
+    desc instance {{instance_id}};
 
-- Check the status of an instance:
+Check the status of an instance:
 
-`status {{instance_id}};`
+    status {{instance_id}};
 
-- Wait on the termination of an instance, printing log and progress information until then:
+Wait on the termination of an instance, printing log and progress information until then:
 
-`wait {{instance_id}};`
+    wait {{instance_id}};
 
-- Kill an instance:
+Kill an instance:
 
-`kill {{instance_id}};`
+    kill {{instance_id}};

@@ -1,23 +1,24 @@
-# wacaw
+wacaw
+=====
 
 > A little command-line tool for Mac OS X that allows you to capture both still pictures and video from an attached camera.
 
-- Take a picture from webcam:
+Take a picture from webcam:
 
-`wacaw {{filename}}`
+    wacaw {{filename}}
 
-- Record a video:
+Record a video:
 
-`wacaw --video {{filename}} -D {{duration_in_seconds}}`
+    wacaw --video {{filename}} -D {{duration_in_seconds}}
 
-- Take a picture with custom resolution:
+Take a picture with custom resolution:
 
-`wacaw -x {{width}} -y {{height}} {{filename}}`
+    wacaw -x {{width}} -y {{height}} {{filename}}
 
-- Copy image just taken to clipboard:
+Copy image just taken to clipboard:
 
-`wacaw --to-clipboard`
+    wacaw --to-clipboard
 
-- List the devices available:
+List the devices available:
 
-`wacaw -L`
+    wacaw -L

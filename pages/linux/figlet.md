@@ -1,15 +1,16 @@
-# figlet
+figlet
+======
 
 > Generate ASCII banners from user input.
 
-- Generate by directly inputting text:
+Generate by directly inputting text:
 
-`figlet {{input_text}}`
+    figlet {{input_text}}
 
-- Use a custom font file:
+Use a custom font file:
 
-`figlet {{input_text}} -f {{font_file_name}}`
+    figlet {{input_text}} -f {{font_file_name}}
 
-- Pipe command output through figlet:
+Pipe command output through figlet:
 
-`{{command}} | figlet`
+    {{command}} | figlet

@@ -1,11 +1,12 @@
-# pbpaste
+pbpaste
+=======
 
 > Send the contents of the clipboard to standard output.
 
-- Write the contents of the clipboard to a file:
+Write the contents of the clipboard to a file:
 
-`pbpaste > {{file}}`
+    pbpaste > {{file}}
 
-- Use the contents of the clipboard as input to a command:
+Use the contents of the clipboard as input to a command:
 
-`pbpaste | grep foo`
+    pbpaste | grep foo

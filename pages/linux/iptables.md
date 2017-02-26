@@ -1,27 +1,28 @@
-# iptables
+iptables
+========
 
 > Program that allows to configure tables, chains and rules provided by the Linux kernel firewall.
 
-- See chains and rules for specific table:
+See chains and rules for specific table:
 
-`sudo iptables -t {{table_name}} -vnL`
+    sudo iptables -t {{table_name}} -vnL
 
-- Set chain policy rule:
+Set chain policy rule:
 
-`sudo iptables -p {{chain}} {{rule}}`
+    sudo iptables -p {{chain}} {{rule}}
 
-- Append rule to chain policy for IP:
+Append rule to chain policy for IP:
 
-`sudo iptables -A {{chain}} -s {{ip}} -j {{rule}}`
+    sudo iptables -A {{chain}} -s {{ip}} -j {{rule}}
 
-- Append rule to chain policy for IP considering protocol and port:
+Append rule to chain policy for IP considering protocol and port:
 
-`sudo iptables -A {{chain}} -s {{ip}} -p {{protocol}} --dport {{port}} -j {{rule}}`
+    sudo iptables -A {{chain}} -s {{ip}} -p {{protocol}} --dport {{port}} -j {{rule}}
 
-- Delete chain rule:
+Delete chain rule:
 
-`sudo iptables -D {{chain}} {{rule_line_number}}`
+    sudo iptables -D {{chain}} {{rule_line_number}}
 
-- Save iptables configuration:
+Save iptables configuration:
 
-`sudo iptables-save > {{path/to/iptables_file}}`
+    sudo iptables-save > {{path/to/iptables_file}}

@@ -1,15 +1,16 @@
-# xcodebuild
+xcodebuild
+==========
 
 > Build Xcode projects.
 
-- Build workspace:
+Build workspace:
 
-`xcodebuild -workspace {{workspace_name.workspace}} -scheme {{scheme_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
+    xcodebuild -workspace {{workspace_name.workspace}} -scheme {{scheme_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}
 
-- Build project:
+Build project:
 
-`xcodebuild -target {{target_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
+    xcodebuild -target {{target_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}
 
-- Show SDKs:
+Show SDKs:
 
-`xcodebuild -showsdks`
+    xcodebuild -showsdks

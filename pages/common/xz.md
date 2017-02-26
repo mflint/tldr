@@ -1,27 +1,28 @@
-# xz
+xz
+==
 
 > Compress or decompress .xz and .lzma files.
 
-- Compress a file:
+Compress a file:
 
-`xz {{file}}`
+    xz {{file}}
 
-- Decompress a file:
+Decompress a file:
 
-`xz -d {{file.xz}}`
+    xz -d {{file.xz}}
 
-- Decompress a file and write to stdout:
+Decompress a file and write to stdout:
 
-`xz -dc {{file.xz}}`
+    xz -dc {{file.xz}}
 
-- Compress a file, but don't delete the original:
+Compress a file, but don't delete the original:
 
-`xz -k {{file}}`
+    xz -k {{file}}
 
-- Compress a file using the fastest compression:
+Compress a file using the fastest compression:
 
-`xz -0 {{file}}`
+    xz -0 {{file}}
 
-- Compress a file using the best compression:
+Compress a file using the best compression:
 
-`xz -9 {{file}}`
+    xz -9 {{file}}

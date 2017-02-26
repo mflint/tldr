@@ -1,15 +1,16 @@
-# su
+su
+==
 
 > Switch shell to another user.
 
-- Switch to user {{username}} (password required):
+Switch to user {{username}} (password required):
 
-`su {{username}}`
+    su {{username}}
 
-- Switch to superuser (admin password required):
+Switch to superuser (admin password required):
 
-`su`
+    su
 
-- Switch to user {{username}} and simulate a full login shell:
+Switch to user {{username}} and simulate a full login shell:
 
-`su - {{username}}`
+    su - {{username}}

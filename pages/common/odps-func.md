@@ -1,19 +1,20 @@
-# odps func
+odps func
+=========
 
 > Manage functions in ODPS (Open Data Processing Service).
 
-- Show functions in the current project:
+Show functions in the current project:
 
-`list functions;`
+    list functions;
 
-- Create a Java function using a .jar resource:
+Create a Java function using a .jar resource:
 
-`create function {{func_name}} as {{path.to.package.Func}} using '{{package.jar}}';`
+    create function {{func_name}} as {{path.to.package.Func}} using '{{package.jar}}';
 
-- Create a Python function using a .py resource:
+Create a Python function using a .py resource:
 
-`create function {{func_name}} as {{script.Func}} using '{{script.py}}';`
+    create function {{func_name}} as {{script.Func}} using '{{script.py}}';
 
-- Delete a function:
+Delete a function:
 
-`drop function {{func_name}};`
+    drop function {{func_name}};

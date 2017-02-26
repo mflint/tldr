@@ -1,7 +1,8 @@
-# fc-match
+fc-match
+========
 
 > Match available fonts.
 
-- Return a sorted list of best matching fonts:
+Return a sorted list of best matching fonts:
 
-`fc-match -s '{{DejaVu Serif}}'`
+    fc-match -s '{{DejaVu Serif}}'

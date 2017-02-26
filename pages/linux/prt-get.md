@@ -1,31 +1,32 @@
-# prt-get
+prt-get
+=======
 
 > The advanced CRUX package manager.
 
-- Install a package:
+Install a package:
 
-`prt-get install {{package_name}}`
+    prt-get install {{package_name}}
 
-- Install a package with dependency handling:
+Install a package with dependency handling:
 
-`prt-get depinst {{package_name}}`
+    prt-get depinst {{package_name}}
 
-- Update a package manually:
+Update a package manually:
 
-`prt-get upgrade {{package_name}}`
+    prt-get upgrade {{package_name}}
 
-- Remove a package:
+Remove a package:
 
-`prt-get remove {{package_name}}`
+    prt-get remove {{package_name}}
 
-- Upgrade the system from the local ports tree:
+Upgrade the system from the local ports tree:
 
-`prt-get sysup`
+    prt-get sysup
 
-- Search the ports tree:
+Search the ports tree:
 
-`prt-get search {{package_name}}`
+    prt-get search {{package_name}}
 
-- Search for a file in a package:
+Search for a file in a package:
 
-`prt-get fsearch {{file}}`
+    prt-get fsearch {{file}}

@@ -1,20 +1,21 @@
-# dirs
+dirs
+====
 
 > Displays or manipulates the directory stack.
 > The directory stack is a list of recently visited directories that can be manipulated with the `pushd` and `popd` commands.
 
-- Display the directory stack with a space between each entry:
+Display the directory stack with a space between each entry:
 
-`dirs`
+    dirs
 
-- Display the directory stack with one entry per line:
+Display the directory stack with one entry per line:
 
-`dirs -p`
+    dirs -p
 
-- Display only the nth entry in the directory stack, starting at 0:
+Display only the nth entry in the directory stack, starting at 0:
 
-`dirs +{{N}}`
+    dirs +{{N}}
 
-- Clear the directory stack:
+Clear the directory stack:
 
-`dirs -c`
+    dirs -c

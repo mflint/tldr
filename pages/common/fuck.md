@@ -1,11 +1,12 @@
-# fuck
+fuck
+====
 
 > Corrects your previous console command.
 
-- Set the `fuck` alias to `thefuck` tool:
+Set the `fuck` alias to `thefuck` tool:
 
-`eval "$(thefuck --alias)"`
+    eval "$(thefuck --alias)"
 
-- Try to match a rule for the previous command:
+Try to match a rule for the previous command:
 
-`fuck`
+    fuck

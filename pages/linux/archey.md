@@ -1,7 +1,8 @@
-# archey
+archey
+======
 
 > Simple tool for stylishly displaying system information.
 
-- Show system information:
+Show system information:
 
-`archey`
+    archey

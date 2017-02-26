@@ -1,16 +1,17 @@
-# apm
+apm
+===
 
 > Atom editor Package Manager.
 > See `atom`.
 
-- Install packages from http://atom.io/packages and themes from http://atom.io/themes:
+Install packages from http://atom.io/packages and themes from http://atom.io/themes:
 
-`apm install {{package_name}}`
+    apm install {{package_name}}
 
-- Remove packages/themes:
+Remove packages/themes:
 
-`apm remove {{package_name}}`
+    apm remove {{package_name}}
 
-- Upgrade packages/themes:
+Upgrade packages/themes:
 
-`apm upgrade {{package_name}}`
+    apm upgrade {{package_name}}

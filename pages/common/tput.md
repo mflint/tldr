@@ -1,23 +1,24 @@
-# tput
+tput
+====
 
 > View and modify terminal settings and capabilities.
 
-- Move the cursor to a screen location:
+Move the cursor to a screen location:
 
-`tput cup {{y_coordinate}} {{x_coordinate}}`
+    tput cup {{y_coordinate}} {{x_coordinate}}
 
-- Set foreground (af) or background (ab) color:
+Set foreground (af) or background (ab) color:
 
-`tput {{setaf|setab}} {{ansi_color_code}}`
+    tput {{setaf|setab}} {{ansi_color_code}}
 
-- Show number of columns, lines, or colors:
+Show number of columns, lines, or colors:
 
-`tput {{cols|lines|colors}}`
+    tput {{cols|lines|colors}}
 
-- Ring the terminal bell:
+Ring the terminal bell:
 
-`tput bel`
+    tput bel
 
-- Reset all terminal attributes:
+Reset all terminal attributes:
 
-`tput sgr0`
+    tput sgr0

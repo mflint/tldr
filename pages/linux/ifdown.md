@@ -1,11 +1,12 @@
-# ifdown
+ifdown
+======
 
 > Disable network interfaces.
 
-- Disable interface eth0:
+Disable interface eth0:
 
-`ifdown {{eth0}}`
+    ifdown {{eth0}}
 
-- Disable all interfaces which are enabled:
+Disable all interfaces which are enabled:
 
-`ifdown -a`
+    ifdown -a

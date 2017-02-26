@@ -1,31 +1,32 @@
-# http
+http
+====
 
 > HTTPie: HTTP client, a user-friendly cURL replacement.
 
-- Download a URL to a file:
+Download a URL to a file:
 
-`http -d {{example.org}}`
+    http -d {{example.org}}
 
-- Send form-encoded data:
+Send form-encoded data:
 
-`http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
+    http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}
 
-- Send JSON object:
+Send JSON object:
 
-`http {{example.org}} {{name='bob'}}`
+    http {{example.org}} {{name='bob'}}
 
-- Specify an HTTP method:
+Specify an HTTP method:
 
-`http {{HEAD}} {{example.org}}`
+    http {{HEAD}} {{example.org}}
 
-- Include an extra header:
+Include an extra header:
 
-`http {{example.org}} {{X-MyHeader:123}}`
+    http {{example.org}} {{X-MyHeader:123}}
 
-- Pass a user name and password for server authentication:
+Pass a user name and password for server authentication:
 
-`http -a {{username:password}} {{example.org}}`
+    http -a {{username:password}} {{example.org}}
 
-- Specify raw request body via stdin:
+Specify raw request body via stdin:
 
-`cat {{data.txt}} | http PUT {{example.org}}`
+    cat {{data.txt}} | http PUT {{example.org}}

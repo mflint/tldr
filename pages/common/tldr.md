@@ -1,11 +1,12 @@
-# tldr
+tldr
+====
 
 > Simplified man pages.
 
-- Get typical usages of a command (hint: this is how you got here!):
+Get typical usages of a command (hint: this is how you got here!):
 
-`tldr {{command}}`
+    tldr {{command}}
 
-- Update the local cache of tldr pages:
+Update the local cache of tldr pages:
 
-`tldr --update`
+    tldr --update

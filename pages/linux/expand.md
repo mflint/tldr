@@ -1,23 +1,24 @@
-# expand
+expand
+======
 
 > Convert tabs to spaces.
 
-- Convert tabs in each file to spaces, writing to standard output:
+Convert tabs in each file to spaces, writing to standard output:
 
-`expand {{file}}`
+    expand {{file}}
 
-- Convert tabs to spaces, reading from standard input:
+Convert tabs to spaces, reading from standard input:
 
-`expand`
+    expand
 
-- Do not convert tabs after non blanks:
+Do not convert tabs after non blanks:
 
-`expand -i {{file}}`
+    expand -i {{file}}
 
-- Have tabs a certain number of characters apart, not 8:
+Have tabs a certain number of characters apart, not 8:
 
-`expand -t={{number}} {{file}}`
+    expand -t={{number}} {{file}}
 
-- Use comma separated list of explicit tab positions:
+Use comma separated list of explicit tab positions:
 
-`expand -t={{list}}`
+    expand -t={{list}}

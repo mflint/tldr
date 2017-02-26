@@ -1,19 +1,20 @@
-# unrar
+unrar
+=====
 
 > Extract RAR archives.
 
-- Extract files with original directory structure:
+Extract files with original directory structure:
 
-`unrar x {{compressed.rar}}`
+    unrar x {{compressed.rar}}
 
-- Extract files into current directory, losing directory structure in the archive:
+Extract files into current directory, losing directory structure in the archive:
 
-`unrar e {{compressed.rar}}`
+    unrar e {{compressed.rar}}
 
-- Test integrity of each file inside the archive file:
+Test integrity of each file inside the archive file:
 
-`unrar t {{compressed.rar}}`
+    unrar t {{compressed.rar}}
 
-- List files inside the archive file without decompressing it:
+List files inside the archive file without decompressing it:
 
-`unrar l {{compressed.rar}}`
+    unrar l {{compressed.rar}}

@@ -1,35 +1,36 @@
-# pacman
+pacman
+======
 
 > Arch Linux package manager utility.
 
-- Synchronize and update all packages:
+Synchronize and update all packages:
 
-`pacman -Syu`
+    pacman -Syu
 
-- Install a new package:
+Install a new package:
 
-`pacman -S {{package_name}}`
+    pacman -S {{package_name}}
 
-- Remove a package and its dependencies:
+Remove a package and its dependencies:
 
-`pacman -Rs {{package_name}}`
+    pacman -Rs {{package_name}}
 
-- Search the package database for a regular expression or keyword:
+Search the package database for a regular expression or keyword:
 
-`pacman -Ss "{{search_pattern}}"`
+    pacman -Ss "{{search_pattern}}"
 
-- List installed packages and versions:
+List installed packages and versions:
 
-`pacman -Q`
+    pacman -Q
 
-- List only the explicitly installed packages and versions:
+List only the explicitly installed packages and versions:
 
-`pacman -Qe`
+    pacman -Qe
 
-- Find which package owns a certain file:
+Find which package owns a certain file:
 
-`pacman -Qo {{filename}}`
+    pacman -Qo {{filename}}
 
-- Empty package cache to free up space:
+Empty package cache to free up space:
 
-`pacman -Scc`
+    pacman -Scc

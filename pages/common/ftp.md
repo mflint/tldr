@@ -1,31 +1,32 @@
-# ftp
+ftp
+===
 
 > Tools to interact with a server via File Transfer Protocol.
 
-- Connect to an FTP server:
+Connect to an FTP server:
 
-`ftp {{ftp.example.com}}`
+    ftp {{ftp.example.com}}
 
-- Switch to binary transfer mode (graphics, compressed files, etc):
+Switch to binary transfer mode (graphics, compressed files, etc):
 
-`binary`
+    binary
 
-- Transfer multiple files without prompting for confirmation on every file:
+Transfer multiple files without prompting for confirmation on every file:
 
-`prompt off`
+    prompt off
 
-- Download multiple files (glob expression):
+Download multiple files (glob expression):
 
-`mget {{*.png}}`
+    mget {{*.png}}
 
-- Upload multiple files (glob expression):
+Upload multiple files (glob expression):
 
-`mput {{*.zip}}`
+    mput {{*.zip}}
 
-- Delete multiple files on the remote server:
+Delete multiple files on the remote server:
 
-`mdelete {{*.txt}}`
+    mdelete {{*.txt}}
 
-- Rename a file on the remote server:
+Rename a file on the remote server:
 
-`rename {{original_filename}} {{new_filename}}`
+    rename {{original_filename}} {{new_filename}}

@@ -1,27 +1,28 @@
-# docker
+docker
+======
 
 > Manage Docker containers and images.
 
-- List of running docker containers:
+List of running docker containers:
 
-`docker ps`
+    docker ps
 
-- List all docker containers (running and stopped):
+List all docker containers (running and stopped):
 
-`docker ps -a`
+    docker ps -a
 
-- Start a container:
+Start a container:
 
-`docker start {{container}}`
+    docker start {{container}}
 
-- Stop a container:
+Stop a container:
 
-`docker stop {{container}}`
+    docker stop {{container}}
 
-- Start a container from an image and get a shell inside of it:
+Start a container from an image and get a shell inside of it:
 
-`docker run -it {{image}} bash`
+    docker run -it {{image}} bash
 
-- Run a command inside of an already running container:
+Run a command inside of an already running container:
 
-`docker exec {{container}} {{command}}`
+    docker exec {{container}} {{command}}

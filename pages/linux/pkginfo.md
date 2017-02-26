@@ -1,19 +1,20 @@
-# pkginfo
+pkginfo
+=======
 
 > Query the package database on a CRUX system.
 
-- List installed packages and their versions:
+List installed packages and their versions:
 
-`pkginfo -i`
+    pkginfo -i
 
-- List files owned by a package:
+List files owned by a package:
 
-`pkginfo -l {{package_name}}`
+    pkginfo -l {{package_name}}
 
-- List the owner(s) of files matching a pattern:
+List the owner(s) of files matching a pattern:
 
-`pkginfo -o {{pattern}}`
+    pkginfo -o {{pattern}}
 
-- Print the footprint of a file:
+Print the footprint of a file:
 
-`pkginfo -f {{file}}`
+    pkginfo -f {{file}}

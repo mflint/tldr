@@ -1,23 +1,24 @@
-# defaults
+defaults
+========
 
 > Read and write OS X user configuration for applications.
 
-- Read system defaults for an application option:
+Read system defaults for an application option:
 
-`defaults read {{application}} {{option}}`
+    defaults read {{application}} {{option}}
 
-- Read default values for an application option:
+Read default values for an application option:
 
-`defaults read -app {{application}} {{option}}`
+    defaults read -app {{application}} {{option}}
 
-- Write the default value of an application option:
+Write the default value of an application option:
 
-`defaults write {{application}} {{option}} {{-type}} {{value}}`
+    defaults write {{application}} {{option}} {{-type}} {{value}}
 
-- Speed up Mission Control animations:
+Speed up Mission Control animations:
 
-`defaults write com.apple.Dock expose-animation-duration -float 0.1`
+    defaults write com.apple.Dock expose-animation-duration -float 0.1
 
-- Delete all defaults of an application:
+Delete all defaults of an application:
 
-`defaults delete {{application}}`
+    defaults delete {{application}}

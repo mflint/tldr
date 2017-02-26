@@ -1,15 +1,16 @@
-# ps
+ps
+==
 
 > Information about running processes.
 
-- List all running processes:
+List all running processes:
 
-`ps aux`
+    ps aux
 
-- List all running processes including the full command string:
+List all running processes including the full command string:
 
-`ps auxww`
+    ps auxww
 
-- Search for a process that matches a string:
+Search for a process that matches a string:
 
-`ps aux | grep {{string}}`
+    ps aux | grep {{string}}

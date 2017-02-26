@@ -1,12 +1,13 @@
-# gulp
+gulp
+====
 
 > JavaScript task runner and streaming build system.
 > Tasks are defined within gulpfile.js at the project root.
 
-- Run the default task:
+Run the default task:
 
-`gulp`
+    gulp
 
-- Run individual tasks:
+Run individual tasks:
 
-`gulp {{task}} {{othertask}}`
+    gulp {{task}} {{othertask}}

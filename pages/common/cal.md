@@ -1,23 +1,24 @@
-# cal
+cal
+===
 
 > Prints calendar information.
 
-- Display a calendar for the current month:
+Display a calendar for the current month:
 
-`cal`
+    cal
 
-- Display a calendar for a specific month:
+Display a calendar for a specific month:
 
-`cal -m {{month_number}}`
+    cal -m {{month_number}}
 
-- Display a 12 month calendar for the current year:
+Display a 12 month calendar for the current year:
 
-`cal -y`
+    cal -y
 
-- Display a 12 month calendar for a specific year:
+Display a 12 month calendar for a specific year:
 
-`cal 2016`
+    cal 2016
 
-- Display date of Easter (western churches):
+Display date of Easter (western churches):
 
-`ncal -e {{year}}`
+    ncal -e {{year}}

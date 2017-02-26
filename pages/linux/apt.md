@@ -1,31 +1,32 @@
-# apt
+apt
+===
 
 > Package management utility for Debian based distributions.
 
-- Update list of packages and versions available. This should be run before running further apt commands:
+Update list of packages and versions available. This should be run before running further apt commands:
 
-`apt update`
+    apt update
 
-- Search for packages:
+Search for packages:
 
-`apt search {{package}}`
+    apt search {{package}}
 
-- Install a new package:
+Install a new package:
 
-`apt install {{package}}`
+    apt install {{package}}
 
-- Remove a package (using "purge" instead also removes its configuration files):
+Remove a package (using "purge" instead also removes its configuration files):
 
-`apt remove {{package}}`
+    apt remove {{package}}
 
-- Upgrade installed packages to the newest available versions:
+Upgrade installed packages to the newest available versions:
 
-`apt upgrade`
+    apt upgrade
 
-- Remove no longer needed packages:
+Remove no longer needed packages:
 
-`apt autoremove`
+    apt autoremove
 
-- Upgrade installed packages and remove no longer needed packages:
+Upgrade installed packages and remove no longer needed packages:
 
-`apt full-upgrade`
+    apt full-upgrade

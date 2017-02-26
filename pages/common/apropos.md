@@ -1,11 +1,12 @@
-# apropos
+apropos
+=======
 
 > Search in manpages, for example to find a new command.
 
-- Search for keyword:
+Search for keyword:
 
-`apropos {{regular_expression}}`
+    apropos {{regular_expression}}
 
-- Search without restricting output to terminal width:
+Search without restricting output to terminal width:
 
-`apropos -l {{regular_expression}}`
+    apropos -l {{regular_expression}}

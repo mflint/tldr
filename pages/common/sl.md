@@ -1,15 +1,16 @@
-# sl
+sl
+==
 
 > Steam locomotive running through your terminal.
 
-- Let a steam locomotive run through your terminal:
+Let a steam locomotive run through your terminal:
 
-`sl`
+    sl
 
-- The train burns, people scream:
+The train burns, people scream:
 
-`sl -a`
+    sl -a
 
-- Let the train fly:
+Let the train fly:
 
-`sl -F`
+    sl -F

@@ -1,15 +1,16 @@
-# mkfs.ntfs
+mkfs.ntfs
+=========
 
 > Creates a NTFS filesystem inside a partition.
 
-- Create a NTFS filesystem inside partition 1 on device b (`sdb1`):
+Create a NTFS filesystem inside partition 1 on device b (`sdb1`):
 
-`mkfs.ntfs {{/dev/sdb1}}`
+    mkfs.ntfs {{/dev/sdb1}}
 
-- Create filesystem with a volume-label:
+Create filesystem with a volume-label:
 
-`mkfs.ntfs -L {{volume_label}} {{/dev/sdb1}}`
+    mkfs.ntfs -L {{volume_label}} {{/dev/sdb1}}
 
-- Create filesystem with specific UUID:
+Create filesystem with specific UUID:
 
-`mkfs.ntfs -U {{UUID}} {{/dev/sdb1}}`
+    mkfs.ntfs -U {{UUID}} {{/dev/sdb1}}

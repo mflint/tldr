@@ -1,15 +1,16 @@
-# nm
+nm
+==
 
 > List symbol names in object files (see c++filt).
 
-- List global (extern) functions in a file (prefixed with T):
+List global (extern) functions in a file (prefixed with T):
 
-`nm -g {{file.o}}`
+    nm -g {{file.o}}
 
-- List only undefined symbols in a file:
+List only undefined symbols in a file:
 
-`nm -u {{file.o}}`
+    nm -u {{file.o}}
 
-- List all symbols, even debugging symbols:
+List all symbols, even debugging symbols:
 
-`nm -a {{file.o}}`
+    nm -a {{file.o}}

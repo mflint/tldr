@@ -1,11 +1,12 @@
-# pwd
+pwd
+===
 
 > Print name of current/working directory.
 
-- Print the current directory:
+Print the current directory:
 
-`pwd`
+    pwd
 
-- Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
+Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
 
-`pwd -P`
+    pwd -P

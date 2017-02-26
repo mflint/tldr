@@ -1,23 +1,24 @@
-# zypper
+zypper
+======
 
 > SUSE & openSUSE package management utility.
 
-- Synchronize list of packages and versions available:
+Synchronize list of packages and versions available:
 
-`zypper refresh`
+    zypper refresh
 
-- Install a new package:
+Install a new package:
 
-`zypper install {{package}}`
+    zypper install {{package}}
 
-- Remove a package:
+Remove a package:
 
-`zypper remove {{package}}`
+    zypper remove {{package}}
 
-- Upgrade installed packages to newest available versions:
+Upgrade installed packages to newest available versions:
 
-`zypper update`
+    zypper update
 
-- Search package via keyword:
+Search package via keyword:
 
-`zypper search {{keyword}}`
+    zypper search {{keyword}}

@@ -1,7 +1,8 @@
-# zless
+zless
+=====
 
 > View compressed files.
 
-- Page through a compressed archive with `less`:
+Page through a compressed archive with `less`:
 
-`zless {{file.txt.gz}}`
+    zless {{file.txt.gz}}

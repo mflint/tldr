@@ -1,23 +1,24 @@
-# git fetch
+git fetch
+=========
 
 > Download objects and refs from a remote repository.
 
-- Fetch the latest changes from the default remote upstream repository (if set):
+Fetch the latest changes from the default remote upstream repository (if set):
 
-`git fetch`
+    git fetch
 
-- Fetch new branches from a specific remote upstream repository:
+Fetch new branches from a specific remote upstream repository:
 
-`git fetch {{remote_name}}`
+    git fetch {{remote_name}}
 
-- Fetch the latest changes from all remote upstream repositories:
+Fetch the latest changes from all remote upstream repositories:
 
-`git fetch --all`
+    git fetch --all
 
-- Also fetch tags from the remote upstream repository:
+Also fetch tags from the remote upstream repository:
 
-`git fetch --tags`
+    git fetch --tags
 
-- Delete local references to remote branches that have been deleted upstream:
+Delete local references to remote branches that have been deleted upstream:
 
-`git fetch --prune`
+    git fetch --prune

@@ -1,27 +1,28 @@
-# pyenv  
+pyenv  
+=======
 
 > Switch between multiple versions of Python easily.
 
-- List all available commands:
+List all available commands:
 
-`pyenv commands`
+    pyenv commands
 
-- List all Python versions under the ${PYENV_ROOT}/versions directory:
+List all Python versions under the ${PYENV_ROOT}/versions directory:
 
-`pyenv versions`
+    pyenv versions
 
-- Install a Python version under the ${PYENV_ROOT}/versions directory:
+Install a Python version under the ${PYENV_ROOT}/versions directory:
 
-`pyenv install {{2.7.10}}`
+    pyenv install {{2.7.10}}
 
-- Uninstall a Python version under the ${PYENV_ROOT}/versions directory:
+Uninstall a Python version under the ${PYENV_ROOT}/versions directory:
 
-`pyenv uninstall {{2.7.10}}`
+    pyenv uninstall {{2.7.10}}
 
-- Set Python version to be used globally in the current machine:
+Set Python version to be used globally in the current machine:
 
-`pyenv global {{2.7.10}}`
+    pyenv global {{2.7.10}}
 
-- Set Python version to be used in the current directory and all directories below it:
+Set Python version to be used in the current directory and all directories below it:
 
-`pyenv local {{2.7.10}}`
+    pyenv local {{2.7.10}}

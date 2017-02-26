@@ -1,19 +1,20 @@
-# shred
+shred
+=====
 
 > Overwrite files to securely delete data.
 
-- Overwrite a file:
+Overwrite a file:
 
-`shred {{file}}`
+    shred {{file}}
 
-- Overwrite a file, leaving zeroes instead of random data:
+Overwrite a file, leaving zeroes instead of random data:
 
-`shred --zero {{file}}`
+    shred --zero {{file}}
 
-- Overwrite a file 25 times:
+Overwrite a file 25 times:
 
-`shred -n25 {{file}}`
+    shred -n25 {{file}}
 
-- Overwrite a file and remove it:
+Overwrite a file and remove it:
 
-`shred --remove {{file}}`
+    shred --remove {{file}}

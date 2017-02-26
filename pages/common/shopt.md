@@ -1,24 +1,25 @@
-# shopt
+shopt
+=====
 
 > Manage Bash shell options: variables (stored in `$BASHOPTS`) that control behavior specific to the Bash shell.
 > Generic POSIX shell variables (stored in `$SHELLOPTS`) are managed with the `set` command instead.
 
-- List of all settable options and whether they are set:
+List of all settable options and whether they are set:
 
-`shopt`
+    shopt
 
-- Set an option:
+Set an option:
 
-`shopt -s {{option_name}}`
+    shopt -s {{option_name}}
 
-- Unset an option:
+Unset an option:
 
-`shopt -u {{option_name}}`
+    shopt -u {{option_name}}
 
-- Print a list of all options and their status formatted as runnable `shopt` commands:
+Print a list of all options and their status formatted as runnable `shopt` commands:
 
-`shopt -p`
+    shopt -p
 
-- Show help for the command:
+Show help for the command:
 
-`help shopt`
+    help shopt

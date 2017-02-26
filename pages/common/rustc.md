@@ -1,16 +1,17 @@
-# rustc
+rustc
+=====
 
 > The Rust compiler.
 > Processes, compiles and links Rust language source files.
 
-- Compile a single file:
+Compile a single file:
 
-`rustc {{file.rs}}`
+    rustc {{file.rs}}
 
-- Compile with high optimization:
+Compile with high optimization:
 
-`rustc -O {{file.rs}}`
+    rustc -O {{file.rs}}
 
-- Compile with debugging information:
+Compile with debugging information:
 
-`rustc -g {{file.rs}}`
+    rustc -g {{file.rs}}

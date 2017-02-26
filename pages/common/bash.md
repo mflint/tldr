@@ -1,24 +1,25 @@
-# bash
+bash
+====
 
 > Bourne-Again SHell.
 > `sh`-compatible command line interpreter.
 
-- Start interactive shell:
+Start interactive shell:
 
-`bash`
+    bash
 
-- Execute a command:
+Execute a command:
 
-`bash -c "{{command}}"`
+    bash -c "{{command}}"
 
-- Run commands from a file:
+Run commands from a file:
 
-`bash {{file.sh}}`
+    bash {{file.sh}}
 
-- Run commands from STDIN:
+Run commands from STDIN:
 
-`bash -s`
+    bash -s
 
-- Print the version information of bash (use `echo $BASH_VERSION` to show just the version string):
+Print the version information of bash (use `echo $BASH_VERSION` to show just the version string):
 
-`bash --version`
+    bash --version

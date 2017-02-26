@@ -1,23 +1,24 @@
-# task
+task
+====
 
 > TODO list manager.
 
-- Add new task:
+Add new task:
 
-`task add {{thing_to_do}}`
+    task add {{thing_to_do}}
 
-- List tasks:
+List tasks:
 
-`task list`
+    task list
 
-- Mark task as completed:
+Mark task as completed:
 
-`task {{task_id}} done`
+    task {{task_id}} done
 
-- Modify task:
+Modify task:
 
-`task {{task_id}} modify {{new_thing_to_do}}`
+    task {{task_id}} modify {{new_thing_to_do}}
 
-- Delete task:
+Delete task:
 
-`task {{task_id}} delete`
+    task {{task_id}} delete

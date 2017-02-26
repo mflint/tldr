@@ -1,11 +1,12 @@
-# yes
+yes
+===
 
 > Output something repeatedly.
 
-- Repeatedly output "message":
+Repeatedly output "message":
 
-`yes {{message}}`
+    yes {{message}}
 
-- Repeatedly output "y":
+Repeatedly output "y":
 
-`yes`
+    yes

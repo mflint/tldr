@@ -1,27 +1,28 @@
-# ls
+ls
+==
 
 > List directory contents.
 
-- List files one per line:
+List files one per line:
 
-`ls -1`
+    ls -1
 
-- List all files, including hidden files:
+List all files, including hidden files:
 
-`ls -a`
+    ls -a
 
-- Long format list (permissions, ownership, size and modification date) of all files:
+Long format list (permissions, ownership, size and modification date) of all files:
 
-`ls -la`
+    ls -la
 
-- Long format list with size displayed using human readable units (KB, MB, GB):
+Long format list with size displayed using human readable units (KB, MB, GB):
 
-`ls -lh`
+    ls -lh
 
-- Long format list sorted by size (descending):
+Long format list sorted by size (descending):
 
-`ls -lS`
+    ls -lS
 
-- Long format list of all files, sorted by modification date (oldest first):
+Long format list of all files, sorted by modification date (oldest first):
 
-`ls -ltr`
+    ls -ltr

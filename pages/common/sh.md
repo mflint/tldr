@@ -1,20 +1,21 @@
-# sh
+sh
+==
 
 > Bourne shell.
 > The standard command language interpreter.
 
-- Start interactive shell:
+Start interactive shell:
 
-`sh`
+    sh
 
-- Execute a command:
+Execute a command:
 
-`sh -c {{command}}`
+    sh -c {{command}}
 
-- Run commands from a file:
+Run commands from a file:
 
-`sh {{file.sh}}`
+    sh {{file.sh}}
 
-- Run commands from STDIN:
+Run commands from STDIN:
 
-`sh -s`
+    sh -s

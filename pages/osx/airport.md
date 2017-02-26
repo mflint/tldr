@@ -1,19 +1,20 @@
-# airport
+airport
+=======
 
 > Wireless network configuration utility.
 
-- Show current wireless status information:
+Show current wireless status information:
 
-`airport -I`
+    airport -I
 
-- Sniff wireless traffic on channel 1:
+Sniff wireless traffic on channel 1:
 
-`airport sniff {{1}}`
+    airport sniff {{1}}
 
-- Scan for available wireless networks:
+Scan for available wireless networks:
 
-`airport -s`
+    airport -s
 
-- Disassociate from current airport network:
+Disassociate from current airport network:
 
-`sudo airport -z`
+    sudo airport -z

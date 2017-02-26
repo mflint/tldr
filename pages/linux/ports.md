@@ -1,15 +1,16 @@
-# ports
+ports
+=====
 
 > Update/list the ports tree on a CRUX system.
 
-- Update the ports tree:
+Update the ports tree:
 
-`ports -u`
+    ports -u
 
-- List the ports in the current tree:
+List the ports in the current tree:
 
-`ports -l`
+    ports -l
 
-- Check the differences between installed packages and the ports tree:
+Check the differences between installed packages and the ports tree:
 
-`ports -d`
+    ports -d

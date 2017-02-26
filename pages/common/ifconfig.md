@@ -1,23 +1,24 @@
-# ifconfig
+ifconfig
+========
 
 > Network Interface Configurator.
 
-- View network settings of an ethernet adapter:
+View network settings of an ethernet adapter:
 
-`ifconfig eth0`
+    ifconfig eth0
 
-- Display details of all interfaces, including disabled interfaces:
+Display details of all interfaces, including disabled interfaces:
 
-`ifconfig -a`
+    ifconfig -a
 
-- Disable eth0 interface:
+Disable eth0 interface:
 
-`ifconfig eth0 down`
+    ifconfig eth0 down
 
-- Enable eth0 interface:
+Enable eth0 interface:
 
-`ifconfig eth0 up`
+    ifconfig eth0 up
 
-- Assign IP address to eth0 interface:
+Assign IP address to eth0 interface:
 
-`ifconfig eth0 {{ip_address}}`
+    ifconfig eth0 {{ip_address}}

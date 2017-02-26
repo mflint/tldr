@@ -1,7 +1,8 @@
-# jar
+jar
+===
 
 > Java Applications/Libraries Packager.
 
-- Unzip .jar/.war file to the current directory:
+Unzip .jar/.war file to the current directory:
 
-`jar -xvf *.jar`
+    jar -xvf *.jar

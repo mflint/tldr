@@ -1,36 +1,37 @@
-# ufw
+ufw
+===
 
 > Uncomplicated Firewall.
 > Frontend for iptables aiming to make configuration of a firewall easier.
 
-- Enable ufw:
+Enable ufw:
 
-`ufw enable`
+    ufw enable
 
-- Disable ufw:
+Disable ufw:
 
-`ufw disable`
+    ufw disable
 
-- Show ufw rules, along with their numbers:
+Show ufw rules, along with their numbers:
 
-`ufw status numbered`
+    ufw status numbered
 
-- Allow incoming traffic on port 5432 on this host:
+Allow incoming traffic on port 5432 on this host:
 
-`ufw allow {{5432}}`
+    ufw allow {{5432}}
 
-- Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
+Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
-`ufw allow proto {{tcp}} from {{192.168.0.4}} to {{any}} port {{22}}`
+    ufw allow proto {{tcp}} from {{192.168.0.4}} to {{any}} port {{22}}
 
-- Deny traffic on port 80 on this host:
+Deny traffic on port 80 on this host:
 
-`ufw deny {{80}}`
+    ufw deny {{80}}
 
-- Deny all UDP traffic to port 22:
+Deny all UDP traffic to port 22:
 
-`ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}`
+    ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}
 
-- Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
+Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
-`ufw delete {{rule_number}}`
+    ufw delete {{rule_number}}

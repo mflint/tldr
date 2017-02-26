@@ -1,7 +1,8 @@
-# chsh
+chsh
+====
 
 > Change user's login shell.
 
-- Change shell:
+Change shell:
 
-`chsh -s {{path/to/shell_binary}} {{username}}`
+    chsh -s {{path/to/shell_binary}} {{username}}

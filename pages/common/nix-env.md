@@ -1,27 +1,28 @@
-# nix-env
+nix-env
+=======
 
 > Manipulate or query Nix user environments.
 
-- Show available package with name or without name:
+Show available package with name or without name:
 
-`nix-env -qa {{pkg_name}}`
+    nix-env -qa {{pkg_name}}
 
-- Show the status of available packages:
+Show the status of available packages:
 
-`nix-env -qas`
+    nix-env -qas
 
-- Install package:
+Install package:
 
-`nix-env -i {{pkg_name}}`
+    nix-env -i {{pkg_name}}
 
-- Uninstall package:
+Uninstall package:
 
-`nix-env -e {{pkg_name}}`
+    nix-env -e {{pkg_name}}
 
-- Upgrade one package:
+Upgrade one package:
 
-`nix-env -u {{pkg_name}}`
+    nix-env -u {{pkg_name}}
 
-- Upgrade all packages:
+Upgrade all packages:
 
-`nix-env -u`
+    nix-env -u

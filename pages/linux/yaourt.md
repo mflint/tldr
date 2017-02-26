@@ -1,23 +1,24 @@
-# yaourt
+yaourt
+======
 
 > Arch Linux utility for building packages from the Arch User Repository.
 
-- Synchronize and update all packages (including AUR):
+Synchronize and update all packages (including AUR):
 
-`yaourt -Syua`
+    yaourt -Syua
 
-- Install a new package (includes AUR):
+Install a new package (includes AUR):
 
-`yaourt -S package-name`
+    yaourt -S package-name
 
-- Remove a package and its dependencies (includes AUR packages):
+Remove a package and its dependencies (includes AUR packages):
 
-`yaourt -Rs package-name`
+    yaourt -Rs package-name
 
-- Search the package database for a keyword (including AUR):
+Search the package database for a keyword (including AUR):
 
-`yaourt -Ss package-name`
+    yaourt -Ss package-name
 
-- List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
+List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
 
-`yaourt -Q`
+    yaourt -Q

@@ -1,11 +1,12 @@
-# pdflatex
+pdflatex
+========
 
 > Compile a pdf document from LaTeX source files.
 
-- Compile a pdf document:
+Compile a pdf document:
 
-`pdflatex {{source.tex}}`
+    pdflatex {{source.tex}}
 
-- Compile a pdf document, halting on each error:
+Compile a pdf document, halting on each error:
 
-`pdflatex -halt-on-error {{source.tex}}`
+    pdflatex -halt-on-error {{source.tex}}

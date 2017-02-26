@@ -1,11 +1,12 @@
-# visudo 
+visudo 
+=======
 
 > Safely edit the sudoers file.
 
-- Edit sudoers file:
+Edit sudoers file:
 
-`sudo visudo`
+    sudo visudo
 
-- Check sudoers file for errors:
+Check sudoers file for errors:
 
-`sudo visudo -c`
+    sudo visudo -c

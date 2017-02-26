@@ -1,15 +1,16 @@
-# nano
+nano
+====
 
 > Simple, easy to use editor. An enhanced, free Pico clone.
 
-- Start nano in terminal with {filename}:
+Start nano in terminal with {filename}:
 
-`nano {{filename}}`
+    nano {{filename}}
 
-- Enable smooth scrolling:
+Enable smooth scrolling:
 
-`nano -S {{filename}}`
+    nano -S {{filename}}
 
-- Indent new lines to the previous lines' indentation:
+Indent new lines to the previous lines' indentation:
 
-`nano -i {{filename}}`
+    nano -i {{filename}}

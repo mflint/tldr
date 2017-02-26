@@ -1,19 +1,20 @@
-# sudo
+sudo
+====
 
 > Execute a command as another user.
 
-- List of an unreadable directory:
+List of an unreadable directory:
 
-`sudo {{ls}} {{/usr/local/scrt}}`
+    sudo {{ls}} {{/usr/local/scrt}}
 
-- To edit a file as user www:
+To edit a file as user www:
 
-`sudo -u {{www}} {{vi}} {{/var/www/index.html}}`
+    sudo -u {{www}} {{vi}} {{/var/www/index.html}}
 
-- To shutdown the machine:
+To shutdown the machine:
 
-`sudo {{shutdown}} -h +10 {{"Cya soon!"}}`
+    sudo {{shutdown}} -h +10 {{"Cya soon!"}}
 
-- To repeat the last command as sudo:
+To repeat the last command as sudo:
 
-`sudo {{!!}}`
+    sudo {{!!}}

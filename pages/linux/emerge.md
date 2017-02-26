@@ -1,31 +1,32 @@
-# emerge
+emerge
+======
 
 > Gentoo Linux package manager utility.
 
-- Synchronize all packages:
+Synchronize all packages:
 
-`emerge --sync`
+    emerge --sync
 
-- Update all packages, including dependencies:
+Update all packages, including dependencies:
 
-`emerge -uDNav @world`
+    emerge -uDNav @world
 
-- Resume a failed updated, skipping the failing package:
+Resume a failed updated, skipping the failing package:
 
-`emerge --resume --skipfirst`
+    emerge --resume --skipfirst
 
-- Install a new package, with confirmation:
+Install a new package, with confirmation:
 
-`emerge -av {{package_name}}`
+    emerge -av {{package_name}}
 
-- Remove a package, with confirmation:
+Remove a package, with confirmation:
 
-`emerge -Cav {{package_name}}`
+    emerge -Cav {{package_name}}
 
-- Remove orphaned packages (that were installed only as dependencies):
+Remove orphaned packages (that were installed only as dependencies):
 
-`emerge -avc`
+    emerge -avc
 
-- Search the package database for a keyword:
+Search the package database for a keyword:
 
-`emerge -S {{keyword}}`
+    emerge -S {{keyword}}

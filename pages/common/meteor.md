@@ -1,27 +1,28 @@
-# meteor
+meteor
+======
 
 > Full-stack javascript platform for building web applications.
 
-- Run a meteor project from its root directory in development mode:
+Run a meteor project from its root directory in development mode:
 
-`meteor`
+    meteor
 
-- Create a project under the given directory:
+Create a project under the given directory:
 
-`meteor create {{path/to/directory}}`
+    meteor create {{path/to/directory}}
 
-- Display the list of packages the project is currently using:
+Display the list of packages the project is currently using:
 
-`meteor list`
+    meteor list
 
-- Add a package to the project:
+Add a package to the project:
 
-`meteor add {{package_name}}`
+    meteor add {{package_name}}
 
-- Remove a package from the project:
+Remove a package from the project:
 
-`meteor remove {{package_name}}`
+    meteor remove {{package_name}}
 
-- Create a production build of the project as a tarball under the given directory:
+Create a production build of the project as a tarball under the given directory:
 
-`meteor build {{path/to/directory}}`
+    meteor build {{path/to/directory}}

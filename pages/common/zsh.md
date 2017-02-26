@@ -1,20 +1,21 @@
-# zsh
+zsh
+===
 
 > Z SHell.
 > `bash` and `sh`-compatible command line interpreter.
 
-- Start interactive command line interpreter:
+Start interactive command line interpreter:
 
-`zsh`
+    zsh
 
-- Execute command passed as parameter:
+Execute command passed as parameter:
 
-`zsh -c {{command}}`
+    zsh -c {{command}}
 
-- Run commands from file (script):
+Run commands from file (script):
 
-`zsh {{file}}`
+    zsh {{file}}
 
-- Run commands from file and print them as they are executed:
+Run commands from file and print them as they are executed:
 
-`zsh -x {{file}}`
+    zsh -x {{file}}

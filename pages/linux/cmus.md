@@ -1,24 +1,25 @@
-# cmus
+cmus
+====
 
 > Commandline Music Player.
 > Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
 
-- Open cmus from specified directory:
+Open cmus from specified directory:
 
-`cmus {{path/to/directory}}`
+    cmus {{path/to/directory}}
 
-- Add file/directory to library:
+Add file/directory to library:
 
-`:add {{path/to/file_or_directory}}`
+    :add {{path/to/file_or_directory}}
 
-- Pause/unpause current song:
+Pause/unpause current song:
 
-`c`
+    c
 
-- Toggle shuffle mode on/off:
+Toggle shuffle mode on/off:
 
-`s`
+    s
 
-- Quit cmus:
+Quit cmus:
 
-`q`
+    q

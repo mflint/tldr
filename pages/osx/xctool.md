@@ -1,15 +1,16 @@
-# xctool
+xctool
+======
 
 > Tool for building Xcode projects.
 
-- Build a single project without any workspace:
+Build a single project without any workspace:
 
-`xctool -project {{YourProject.xcodeproj}} -scheme {{YourScheme}} build`
+    xctool -project {{YourProject.xcodeproj}} -scheme {{YourScheme}} build
 
-- Build a project that is part of a workspace:
+Build a project that is part of a workspace:
 
-`xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} build`
+    xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} build
 
-- Clean, build and execute all the tests:
+Clean, build and execute all the tests:
 
-`xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} clean build test`
+    xctool -workspace {{YourWorkspace.xcworkspace}} -scheme {{YourScheme}} clean build test

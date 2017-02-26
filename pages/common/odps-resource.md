@@ -1,27 +1,28 @@
-# odps resource
+odps resource
+=============
 
 > Manage resources in ODPS (Open Data Processing Service).
 
-- Show resources in the current project:
+Show resources in the current project:
 
-`list resources;`
+    list resources;
 
-- Add file resource:
+Add file resource:
 
-`add file {{file_name}} as {{alias}};`
+    add file {{file_name}} as {{alias}};
 
-- Add archive resource:
+Add archive resource:
 
-`add archive {{archive.tar.gz}} as {{alias}};`
+    add archive {{archive.tar.gz}} as {{alias}};
 
-- Add .jar resource:
+Add .jar resource:
 
-`add jar {{package.jar}};`
+    add jar {{package.jar}};
 
-- Add .py resource:
+Add .py resource:
 
-`add py {{script.py}};`
+    add py {{script.py}};
 
-- Delete resource:
+Delete resource:
 
-`drop resource {{resource_name}};`
+    drop resource {{resource_name}};

@@ -1,19 +1,20 @@
-# avrdude
+avrdude
+=======
 
 > Driver program for Atmel AVR microcontrollers programming.
 
-- Read AVR microcontroller:
+Read AVR microcontroller:
 
-`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i`
+    avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i
 
-- Write AVR microcontroller:
+Write AVR microcontroller:
 
-`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}`
+    avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}
 
-- List available AVR devices:
+List available AVR devices:
 
-`avrdude -p \?`
+    avrdude -p \?
 
-- List available AVR programmers:
+List available AVR programmers:
 
-`avrdude -c \?`
+    avrdude -c \?

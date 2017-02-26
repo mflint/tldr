@@ -1,15 +1,16 @@
-# watch
+watch
+=====
 
 > Execute a command repeatedly, and monitor the output in full-screen mode.
 
-- Monitor files in the current folder:
+Monitor files in the current folder:
 
-`watch {{ls}}`
+    watch {{ls}}
 
-- Monitor disk space and highlight the changes:
+Monitor disk space and highlight the changes:
 
-`watch -d {{df}}`
+    watch -d {{df}}
 
-- Monitor "node" processes, refreshing every 3 seconds:
+Monitor "node" processes, refreshing every 3 seconds:
 
-`watch -n {{3}} "{{ps aux | grep node}}"`
+    watch -n {{3}} "{{ps aux | grep node}}"

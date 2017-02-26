@@ -1,19 +1,20 @@
-# who
+who
+===
 
 > Display who is logged in and related data (processes, boot time).
 
-- Display the username, line, and time of all currently logged-in sessions:
+Display the username, line, and time of all currently logged-in sessions:
 
-`who`
+    who
 
-- Display information only for the current terminal session:
+Display information only for the current terminal session:
 
-`who am i`
+    who am i
 
-- Display all available information:
+Display all available information:
 
-`who -a`
+    who -a
 
-- Display all available information with table headers:
+Display all available information with table headers:
 
-`who -a -H`
+    who -a -H

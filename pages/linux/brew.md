@@ -1,31 +1,32 @@
-# brew
+brew
+====
 
 > The Homebrew package manager for Linux.
 
-- Search formula:
+Search formula:
 
-`brew search {{text}}`
+    brew search {{text}}
 
-- Install formula:
+Install formula:
 
-`brew install {{formula}}`
+    brew install {{formula}}
 
-- List all installed formulae:
+List all installed formulae:
 
-`brew list`
+    brew list
 
-- Get latest version of installed formula (passing no formula updates all installed formulae):
+Get latest version of installed formula (passing no formula updates all installed formulae):
 
-`brew upgrade {{formula}}`
+    brew upgrade {{formula}}
 
-- Update brew:
+Update brew:
 
-`brew update`
+    brew update
 
-- Display information about formula, which contains formula version, installed path, dependencies, etc.:
+Display information about formula, which contains formula version, installed path, dependencies, etc.:
 
-`brew info {{formula}}`
+    brew info {{formula}}
 
-- Check your system for potential problems:
+Check your system for potential problems:
 
-`brew doctor`
+    brew doctor

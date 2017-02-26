@@ -1,15 +1,16 @@
-# sleep
+sleep
+=====
 
 > Delay for a specified amount of time.
 
-- Delay in seconds:
+Delay in seconds:
 
-`sleep {{seconds}}`
+    sleep {{seconds}}
 
-- Delay in minutes:
+Delay in minutes:
 
-`sleep {{minutes}}m`
+    sleep {{minutes}}m
 
-- Delay in hours:
+Delay in hours:
 
-`sleep {{hours}}h`
+    sleep {{hours}}h

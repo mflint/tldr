@@ -1,19 +1,20 @@
-# jobs
+jobs
+====
 
 > Display status of jobs in the current session.
 
-- Show status of all jobs:
+Show status of all jobs:
 
-`jobs`
+    jobs
 
-- Show status of a particular job:
+Show status of a particular job:
 
-`jobs {{job_id}}`
+    jobs {{job_id}}
 
-- Show status and process IDs of all jobs:
+Show status and process IDs of all jobs:
 
-`jobs -l`
+    jobs -l
 
-- Show process IDs of all jobs:
+Show process IDs of all jobs:
 
-`jobs -p`
+    jobs -p

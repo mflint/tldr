@@ -1,28 +1,29 @@
-# mpc
+mpc
+===
 
 > Music Player Client.
 > Program for controlling the Music Player Daemon (MPD).
 
-- Toggle play/pause:
+Toggle play/pause:
 
-`mpc toggle`
+    mpc toggle
 
-- Stop playing:
+Stop playing:
 
-`mpc stop`
+    mpc stop
 
-- Show information about the currently playing song:
+Show information about the currently playing song:
 
-`mpc status`
+    mpc status
 
-- Play next song:
+Play next song:
 
-`mpc next`
+    mpc next
 
-- Play previous song:
+Play previous song:
 
-`mpc prev`
+    mpc prev
 
-- Forward or rewind the currently playing song:
+Forward or rewind the currently playing song:
 
-`mpc [+-]{{seconds}}`
+    mpc [+-]{{seconds}}

@@ -1,11 +1,12 @@
-# readlink
+readlink
+========
 
 > Follow symlinks and get symlink information.
 
-- Get the actual file to which the symlink points:
+Get the actual file to which the symlink points:
 
-`readlink {{filename}}`
+    readlink {{filename}}
 
-- Get the absolute path to a file:
+Get the absolute path to a file:
 
-`readlink -f {{filename}}`
+    readlink -f {{filename}}

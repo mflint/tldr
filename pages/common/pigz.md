@@ -1,23 +1,24 @@
-# pigz
+pigz
+====
 
 > Multithreaded zlib compression utility.
 
-- Compress a file with default options:
+Compress a file with default options:
 
-`pigz {{filename}}`
+    pigz {{filename}}
 
-- Compress a file using the best compression method:
+Compress a file using the best compression method:
 
-`pigz -9 {{filename}}`
+    pigz -9 {{filename}}
 
-- Compress a file using no compression and 4 processors:
+Compress a file using no compression and 4 processors:
 
-`pigz -0 -p{{4}} {{filename}}`
+    pigz -0 -p{{4}} {{filename}}
 
-- Decompress a file:
+Decompress a file:
 
-`pigz -d {{archive.gz}}`
+    pigz -d {{archive.gz}}
 
-- List the contents of an archive:
+List the contents of an archive:
 
-`pigz -l {{archive.tar.gz}}`
+    pigz -l {{archive.tar.gz}}

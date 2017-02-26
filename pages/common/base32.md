@@ -1,19 +1,20 @@
-# base32
+base32
+======
 
 > Encode or decode file or standard input, to standard output.
 
-- Encode a file:
+Encode a file:
 
-`base32 {{filename}}`
+    base32 {{filename}}
 
-- Decode a file:
+Decode a file:
 
-`base32 -d {{filename}}`
+    base32 -d {{filename}}
 
-- Encode from stdin:
+Encode from stdin:
 
-`{{somecommand}} | base32`
+    {{somecommand}} | base32
 
-- Decode from stdin:
+Decode from stdin:
 
-`{{somecommand}} | base32 -d`
+    {{somecommand}} | base32 -d

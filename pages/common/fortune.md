@@ -1,27 +1,28 @@
-# fortune
+fortune
+=======
 
 > Print a random quotation (fortune-cookie style).
 
-- Print a quotation:
+Print a quotation:
 
-`fortune`
+    fortune
 
-- Print an offensive quotation:
+Print an offensive quotation:
 
-`fortune -o`
+    fortune -o
 
-- Print a long quotation:
+Print a long quotation:
 
-`fortune -l`
+    fortune -l
 
-- Print a short quotation:
+Print a short quotation:
 
-`fortune -s`
+    fortune -s
 
-- List the available quotation database files:
+List the available quotation database files:
 
-`fortune -f`
+    fortune -f
 
-- Print a quotation from one of the database files listed by `fortune -f`:
+Print a quotation from one of the database files listed by `fortune -f`:
 
-`fortune {{filename}}`
+    fortune {{filename}}

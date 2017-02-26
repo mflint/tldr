@@ -1,15 +1,16 @@
-# whatis
+whatis
+======
 
 > Display one-line descriptions from manual pages.
 
-- Display a description from a man page:
+Display a description from a man page:
 
-`whatis {{command}}`
+    whatis {{command}}
 
-- Don't cut the description off at the end of the line:
+Don't cut the description off at the end of the line:
 
-`whatis --long {{command}}`
+    whatis --long {{command}}
 
-- Search man page descriptions with a regular expression:
+Search man page descriptions with a regular expression:
 
-`whatis --regex {{regular_expression}}`
+    whatis --regex {{regular_expression}}

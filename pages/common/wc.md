@@ -1,19 +1,20 @@
-# wc
+wc
+==
 
 > Count words, bytes, or lines.
 
-- Count lines in file:
+Count lines in file:
 
-`wc -l {{file}}`
+    wc -l {{file}}
 
-- Count words in file:
+Count words in file:
 
-`wc -w {{file}}`
+    wc -w {{file}}
 
-- Count characters (bytes) in file:
+Count characters (bytes) in file:
 
-`wc -c {{file}}`
+    wc -c {{file}}
 
-- Count characters in file (taking multi-byte character sets into account):
+Count characters in file (taking multi-byte character sets into account):
 
-`wc -m {{file}}`
+    wc -m {{file}}

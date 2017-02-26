@@ -1,15 +1,16 @@
-# git submodule
+git submodule
+=============
 
 > Inspects, updates and manages submodules.
 
-- Install a repository's specified submodules:
+Install a repository's specified submodules:
 
-`git submodule update --init --recursive`
+    git submodule update --init --recursive
 
-- Add a git repository as a submodule:
+Add a git repository as a submodule:
 
-`git submodule add {{repository_url}}`
+    git submodule add {{repository_url}}
 
-- Update every submodule to its latest commit:
+Update every submodule to its latest commit:
 
-`git submodule foreach git pull`
+    git submodule foreach git pull

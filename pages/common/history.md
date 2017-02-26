@@ -1,15 +1,16 @@
-# history
+history
+=======
 
 > Command Line history.
 
-- Display the commands history list with line numbers:
+Display the commands history list with line numbers:
 
-`history`
+    history
 
-- Clear the commands history list (only for current `bash` shell):
+Clear the commands history list (only for current `bash` shell):
 
-`history -c`
+    history -c
 
-- Overwrite history file with history of current `bash` shell (often combined with `history -c` to purge history):
+Overwrite history file with history of current `bash` shell (often combined with `history -c` to purge history):
 
-`history -w`
+    history -w

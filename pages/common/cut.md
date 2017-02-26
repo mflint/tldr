@@ -1,27 +1,28 @@
-# cut
+cut
+===
 
 > Cut out fields from STDIN or files.
 
-- Cut out the first sixteen characters of each line of STDIN:
+Cut out the first sixteen characters of each line of STDIN:
 
-`cut -c {{1-16}}`
+    cut -c {{1-16}}
 
-- Cut out the first sixteen characters of each line of the given files:
+Cut out the first sixteen characters of each line of the given files:
 
-`cut -c {{1-16}} {{file}}`
+    cut -c {{1-16}} {{file}}
 
-- Cut out everything from the 3rd character to the end of each line:
+Cut out everything from the 3rd character to the end of each line:
 
-`cut -c{{3-}}`
+    cut -c{{3-}}
 
-- Cut out the fifth field of each line, using a colon as a field delimiter (default delimiter is tab):
+Cut out the fifth field of each line, using a colon as a field delimiter (default delimiter is tab):
 
-`cut -d'{{:}}' -f{{5}}`
+    cut -d'{{:}}' -f{{5}}
 
-- Cut out the 2nd and 10th fields of each line, using a semicolon as a delimiter:
+Cut out the 2nd and 10th fields of each line, using a semicolon as a delimiter:
 
-`cut -d'{{;}}' -f{{2,10}}`
+    cut -d'{{;}}' -f{{2,10}}
 
-- Cut out the fields 3 through 7 of each line, using a space as a delimiter:
+Cut out the fields 3 through 7 of each line, using a space as a delimiter:
 
-`cut -d'{{ }}' -f{{3-7}}`
+    cut -d'{{ }}' -f{{3-7}}

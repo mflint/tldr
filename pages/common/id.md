@@ -1,11 +1,12 @@
-# id
+id
+==
 
 > Display current user and group identity.
 
-- Display the current user identity as a number:
+Display the current user identity as a number:
 
-`id -u`
+    id -u
 
-- Display the current group identity as a number:
+Display the current group identity as a number:
 
-`id -g`
+    id -g

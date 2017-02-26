@@ -1,31 +1,32 @@
-# netstat
+netstat
+=======
 
 > Displays various networks related information such as open connections, open socket ports etc.
 
-- List all ports:
+List all ports:
 
-`netstat -a`
+    netstat -a
 
-- List all listening ports:
+List all listening ports:
 
-`netstat -l`
+    netstat -l
 
-- List listening TCP ports:
+List listening TCP ports:
 
-`netstat -t`
+    netstat -t
 
-- Display PID and program names:
+Display PID and program names:
 
-`netstat -p`
+    netstat -p
 
-- List information continuously:
+List information continuously:
 
-`netstat -c`
+    netstat -c
 
-- List routes and do not resolve IP to hostname:
+List routes and do not resolve IP to hostname:
 
-`netstat -rn`
+    netstat -rn
 
-- List listening TCP and UDP ports (+ user and process if you're root):
+List listening TCP and UDP ports (+ user and process if you're root):
 
-`netstat -lepunt`
+    netstat -lepunt

@@ -1,16 +1,17 @@
-# mitmdump
+mitmdump
+========
 
 > View, record, and programmatically transform HTTP traffic.
 > The command-line counterpart to mitmproxy.
 
-- Start a proxy and save all output to a file:
+Start a proxy and save all output to a file:
 
-`mitmdump -w {{filename}}`
+    mitmdump -w {{filename}}
 
-- Filter a saved traffic file to just POST requests:
+Filter a saved traffic file to just POST requests:
 
-`mitmdump -nr {{input_filename}} -w {{output_filename}} {{"~m post"}}`
+    mitmdump -nr {{input_filename}} -w {{output_filename}} {{"~m post"}}
 
-- Replay a saved traffic file:
+Replay a saved traffic file:
 
-`mitmdump -nc {{filename}}`
+    mitmdump -nc {{filename}}

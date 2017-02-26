@@ -1,19 +1,20 @@
-# xcv
+xcv
+===
 
 > Cut, copy, and paste in the command-line.
 
-- Cut a file:
+Cut a file:
 
-`xcv x {{input_file}}`
+    xcv x {{input_file}}
 
-- Copy a file:
+Copy a file:
 
-`xcv c {{input_file}}`
+    xcv c {{input_file}}
 
-- Paste a file:
+Paste a file:
 
-`xcv v {{output_file}}`
+    xcv v {{output_file}}
 
-- List files available for pasting:
+List files available for pasting:
 
-`xcv l`
+    xcv l

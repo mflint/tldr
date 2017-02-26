@@ -1,23 +1,24 @@
-# php
+php
+===
 
 > PHP command line interface.
 
-- Parse and execute a php script:
+Parse and execute a php script:
 
-`php {{file}}`
+    php {{file}}
 
-- Check syntax on (i.e. lint) a PHP script:
+Check syntax on (i.e. lint) a PHP script:
 
-`php -l {{file}}`
+    php -l {{file}}
 
-- Run PHP interactively:
+Run PHP interactively:
 
-`php -a`
+    php -a
 
-- Run PHP code (Notes: Don't use <? ?> tags; escape double quotes with backslash):
+Run PHP code (Notes: Don't use <? ?> tags; escape double quotes with backslash):
 
-`php -r "{{code}}"`
+    php -r "{{code}}"
 
-- Start a PHP built-in web server in the current directory:
+Start a PHP built-in web server in the current directory:
 
-`php -S {{host:port}}`
+    php -S {{host:port}}

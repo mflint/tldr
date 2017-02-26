@@ -1,7 +1,8 @@
-# time
+time
+====
 
 > See how long a command takes.
 
-- Time "ls":
+Time "ls":
 
-`time ls`
+    time ls

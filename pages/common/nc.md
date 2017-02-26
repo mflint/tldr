@@ -1,39 +1,40 @@
-# nc
+nc
+==
 
 > Reads and writes tcp or udp data.
 
-- Listen on a specified port:
+Listen on a specified port:
 
-`nc  -l {{port}}`
+    nc  -l {{port}}
 
-- Connect to a certain port (you can then write to this port):
+Connect to a certain port (you can then write to this port):
 
-`nc {{ip_address}} {{port}}`
+    nc {{ip_address}} {{port}}
 
-- Set a timeout:
+Set a timeout:
 
-`nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
+    nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}
 
-- Serve a file:
+Serve a file:
 
-`nc -l {{port}} < {{file}}`
+    nc -l {{port}} < {{file}}
 
-- Receive a file:
+Receive a file:
 
-`nc {{ip_address}} {{port}} > {{file}}`
+    nc {{ip_address}} {{port}} > {{file}}
 
-- Server stay up after client detach:
+Server stay up after client detach:
 
-`nc -k -l {{port}}`
+    nc -k -l {{port}}
 
-- Client stay up after EOF:
+Client stay up after EOF:
 
-`nc -q {{timeout}} {{ip_address}}`
+    nc -q {{timeout}} {{ip_address}}
 
-- Port scanning:
+Port scanning:
 
-`nc -v -z {{ip_address}} {{port}}`
+    nc -v -z {{ip_address}} {{port}}
 
-- Proxy and port forwarding:
+Proxy and port forwarding:
 
-`nc -l {{port}} | nc {{hostname}} {{port}}`
+    nc -l {{port}} | nc {{hostname}} {{port}}

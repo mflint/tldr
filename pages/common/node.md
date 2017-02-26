@@ -1,15 +1,16 @@
-# node
+node
+====
 
 > Server-side JavaScript platform (Node.js).
 
-- Run a JavaScript file:
+Run a JavaScript file:
 
-`node {{file}}.js`
+    node {{file}}.js
 
-- Start a REPL (interactive shell):
+Start a REPL (interactive shell):
 
-`node`
+    node
 
-- Evaluate JavaScript by passing it in the command:
+Evaluate JavaScript by passing it in the command:
 
-`node -e "{{code}}"`
+    node -e "{{code}}"

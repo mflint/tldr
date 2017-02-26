@@ -1,24 +1,25 @@
-# uniq
+uniq
+====
 
 > Output the unique lines from the given input or file.
 > Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
 
-- Display each line once:
+Display each line once:
 
-`sort {{file}} | uniq`
+    sort {{file}} | uniq
 
-- Display only unique lines:
+Display only unique lines:
 
-`sort {{file}} | uniq -u`
+    sort {{file}} | uniq -u
 
-- Display only duplicate lines:
+Display only duplicate lines:
 
-`sort {{file}} | uniq -d`
+    sort {{file}} | uniq -d
 
-- Display number of occurences of each line along with that line:
+Display number of occurences of each line along with that line:
 
-`sort {{file}} | uniq -c`
+    sort {{file}} | uniq -c
 
-- Display number of occurences of each line, sorted by the most frequent:
+Display number of occurences of each line, sorted by the most frequent:
 
-`sort {{file}} | uniq -c | sort -nr`
+    sort {{file}} | uniq -c | sort -nr

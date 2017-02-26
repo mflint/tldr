@@ -1,19 +1,20 @@
-# umask
+umask
+=====
 
 > Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user.
 
-- Display the current mask in octal notation:
+Display the current mask in octal notation:
 
-`umask`
+    umask
 
-- Display the current mask in symbolic (human-readable) mode:
+Display the current mask in symbolic (human-readable) mode:
 
-`umask -S`
+    umask -S
 
-- Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged):
+Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged):
 
-`umask {{a+r}}`
+    umask {{a+r}}
 
-- Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else:
+Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else:
 
-`umask {{077}}`
+    umask {{077}}

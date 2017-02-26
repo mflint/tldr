@@ -1,19 +1,20 @@
-# lpstat
+lpstat
+======
 
 > Show status information about printers.
 
-- List printers present on the machine and whether they are enabled for printing:
+List printers present on the machine and whether they are enabled for printing:
 
-`lpstat -p`
+    lpstat -p
 
-- Show the default printer:
+Show the default printer:
 
-`lpstat -d`
+    lpstat -d
 
-- Display all available status information:
+Display all available status information:
 
-`lpstat -t`
+    lpstat -t
 
-- Show a list of print jobs queued by the specified user:
+Show a list of print jobs queued by the specified user:
 
-`lpstat -u {{user}}`
+    lpstat -u {{user}}

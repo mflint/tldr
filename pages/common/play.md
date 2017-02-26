@@ -1,20 +1,21 @@
-# play
+play
+====
 
 > Audio player of SoX - Sound eXchange.
 > Plays any audio from the command line, with audio formats identified by the extension.
 
-- Play the given audio file:
+Play the given audio file:
 
-`play {{audiofile}}`
+    play {{audiofile}}
 
-- Play the given audio files:
+Play the given audio files:
 
-`play {{audiofile1}} {{audiofile2}}`
+    play {{audiofile1}} {{audiofile2}}
 
-- Play the given audio at twice the speed:
+Play the given audio at twice the speed:
 
-`play {{audiofile}} speed 2.0`
+    play {{audiofile}} speed 2.0
 
-- Play the given audio in reverse:
+Play the given audio in reverse:
 
-`play {{audiofile}} reverse`
+    play {{audiofile}} reverse

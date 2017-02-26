@@ -1,19 +1,20 @@
-# mtr
+mtr
+===
 
 > Matt's Traceroute: combined traceroute and ping tool.
 
-- Traceroute to a host and continuously ping all intermediary hops:
+Traceroute to a host and continuously ping all intermediary hops:
 
-`mtr {{host}}`
+    mtr {{host}}
 
-- Disable IP address and host name mapping:
+Disable IP address and host name mapping:
 
-`mtr -n {{host}}`
+    mtr -n {{host}}
 
-- Generate output after pinging each hop 10 times:
+Generate output after pinging each hop 10 times:
 
-`mtr -w {{host}}`
+    mtr -w {{host}}
 
-- Force IP IPv4 or IPV6:
+Force IP IPv4 or IPV6:
 
-`mtr -4 {{host}}`
+    mtr -4 {{host}}

@@ -1,11 +1,12 @@
-# vimtutor
+vimtutor
+========
 
 > Vim tutor, teaching the basic vim commands.
 
-- Launch the vim tutor using the given language (en, fr, de, ...):
+Launch the vim tutor using the given language (en, fr, de, ...):
 
-`vimtutor {{language}}`
+    vimtutor {{language}}
 
-- Exit the tutor:
+Exit the tutor:
 
-`<Esc> :q <Enter>`
+    <Esc> :q <Enter>

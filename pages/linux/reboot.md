@@ -1,11 +1,12 @@
-# reboot
+reboot
+======
 
 > Reboot the system.
 
-- Reboot immediately:
+Reboot immediately:
 
-`reboot`
+    reboot
 
-- Reboot immediately without gracefully shutdown:
+Reboot immediately without gracefully shutdown:
 
-`reboot -f`
+    reboot -f

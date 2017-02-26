@@ -1,19 +1,20 @@
-# git
+git
+===
 
 > Distributed version control system.
 
-- Check the Git version:
+Check the Git version:
 
-`git --version`
+    git --version
 
-- Call general help:
+Call general help:
 
-`git --help`
+    git --help
 
-- Call help on a command:
+Call help on a command:
 
-`git help {{command}}`
+    git help {{command}}
 
-- Execute Git command:
+Execute Git command:
 
-`git {{command}}`
+    git {{command}}
